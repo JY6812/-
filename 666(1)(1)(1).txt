@@ -1,0 +1,16 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "『羊脚本』"; Text ="欢迎大家找作者提意见"; Icon = "rbxassetid://18107430261"; Duration = 4; })
+ wait(2)
+
+local ui = loadstring(game:HttpGet("https://pastebin.com/raw/1LLBCnwv"))()
+local win = ui:new("羊脚本proMax")
+
+local UITab1 = win:Tab("『公告』",'7734068321')
+
+local about = UITab1:section("作者发话",true)
+
+about:Label("羊脚本㍿")
+about:Label("作者QQ：292585170")
+about:Label("QQ主群：512492770")
+about:Label("作者：yzc")
+about:Label("脚本持续更新中")
+about:Label("脚本疯狂优化中")
