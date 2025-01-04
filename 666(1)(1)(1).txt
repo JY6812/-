@@ -14,3 +14,11 @@ about:Label("QQ主群：512492770")
 about:Label("作者：yzc")
 about:Label("脚本持续更新中")
 about:Label("脚本疯狂优化中")
+
+local UITab3 = win:Tab("『通用』",'16060333448')
+
+local about = UITab3:section("『通用』",true)
+
+about:Button("玩家加入游戏提示",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/boyscp/scriscriptsc/main/bbn.lua"))()
+end)
