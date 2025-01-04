@@ -1,0 +1,144 @@
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "『羽脚本』"; 
+    Text = "欢迎使用羽脚本"; 
+    Icon = "rbxassetid://74573794164657"; 
+    Duration = 4; 
+})
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "『羽脚本』"; 
+    Text = "脚本永久免费感谢支持"; 
+    Icon = "rbxassetid://74573794164657"; 
+    Duration = 4; 
+})
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "『羽脚本』"; 
+    Text = "本人做的脚本不怎么好请谅解"; 
+    Icon = "rbxassetid://74573794164657"; 
+    Duration = 4; 
+})
+
+local ui = loadstring(game:HttpGet("https://pastebin.com/raw/1LLBCnwv"))()
+local win = ui:new("羽脚本")
+
+local UITab1 = win:Tab("『通用』", '16060333448')
+
+local about = UITab1:section("通用内容", true)
+
+about:Label("羽脚本㍿")
+about:Label("作者QQ：3593096320")
+about:Label("QQ主群：1016096895")
+about:Label("作者：yzc")
+about:Label("脚本持续更新中")
+about:Label("脚本疯狂优化中")
+
+local creds = win:Tab("公告", "7734068321")
+
+local credits = creds:section("作者说话", true)
+
+about:Slider('修改速度', 'WalkspeedSlider', 16, 16, 99999, false, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+end)
+
+about:Slider('修改跳跃', 'JumpPowerSlider', 50, 50, 99999, false, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+end)
+
+about:Slider('修改重力', 'GravitySlider', 198, 198, 99999, false, function(Value)
+    game.Workspace.Gravity = Value
+end)
+
+about:Slider('修改高度', 'Slider', 2, 2, 9999, false, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.HipHeight = Value
+end)
+
+about:Slider('相机焦距上限', 'ZOOOOOM OUT!', 128, 128, 200000, false, function(Value)
+    game:GetService("Players").LocalPlayer.CameraMaxZoomDistance = Value
+end)
+
+about:Slider('相机焦距【正常为70】', 'Sliderflag', 70, 0.1, 250, false, function(v)
+    game.Workspace.CurrentCamera.FieldOfView = v
+end)
+
+about:Slider('健康值上限', 'Sliderflag', 120, 120, 999999, false, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.MaxHealth = Value
+end)
+
+about:Slider('玩家健康值', 'Sliderflag', 120, 120, 999999, false, function(Value)
+    game.Players.LocalPlayer.Character.Humanoid.Health = Value
+end)
+
+about:Button("死亡笔记", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/tt/main/%E6%AD%BB%E4%BA%A1%E7%AC%94%E8%AE%B0%20(1).txt"))()
+end)
+
+about:Button("汉化穿墙", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TtmScripter/OtherScript/main/Noclip"))()
+end)
+
+about:Button("飞行", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/dingding123hhh/tt/main/jm%E9%A3%9E..lua"))()
+end)
+
+local about = UITab1:section("『91区』", true)
+
+about:Button("人物和名字透视", function()
+    loadstring(game:HttpGet("https://pastefy.app/QTjhfgut/raw", true))()
+end)
+
+about:Button("人物线条透视", function()
+    loadstring(game:HttpGet("https://pastefy.app/HigRNV6D/raw", true))()
+end)
+
+about:Button("Esp", function()
+    loadstring(game:HttpGet("https://pastefy.app/p8Ss6RvT/raw", true))()
+end)
+
+about:Toggle("夜视", "", false, function(state)
+    if state then
+        game.Lighting.Ambient = Color3.new(1, 1, 1)
+    else
+        game.Lighting.Ambient = Color3.new(0, 0, 0)
+    end
+end)
+
+about:Button("无限跳跃", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))()
+end)
+
+local about = UITab1:section("『91区』", true)
+
+about:Button("小羊自瞄（死亡消失）", function()
+    loadstring(game:HttpGet("https://pastefy.app/ZYMlyhhz/raw", true))()
+end)
+
+about:Button("宙斯自瞄", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20Aimbot.lua"))()
+end)
+
+about:Button("英文自瞄", function()
+    loadstring(game:HttpGet("https://rentry.co/n55gmtpi/raw", true))()
+end)
+
+Tab:AddButton({
+    Name = "自动bin鲨鱼🦈(鲨鱼)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wumingjiaoben/qingfeng/refs/heads/main/wuming(2).txt"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "自动bin鲨鱼🦈(鲨鱼)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wumingjiaoben/qingfeng/refs/heads/main/wuming(2).txt"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "自动bin鲨鱼🦈(鲨鱼)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wumingjiaoben/qingfeng/refs/heads/main/wuming(2).txt"))()
+    end
+})
