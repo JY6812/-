@@ -1,25 +1,3 @@
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "『羽脚本』"; 
-    Text = "欢迎使用羽脚本"; 
-    Icon = "rbxassetid://74573794164657"; 
-    Duration = 4; 
-})
-wait(3)
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "『羽脚本』"; 
-    Text = "脚本永久免费感谢支持"; 
-    Icon = "rbxassetid://74573794164657"; 
-    Duration = 4; 
-})
-
-game:GetService("StarterGui"):SetCore("SendNotification", { 
-    Title = "『羽脚本』"; 
-    Text = "本人做的脚本不怎么好请谅解"; 
-    Icon = "rbxassetid://74573794164657"; 
-    Duration = 4; 
-})
-
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/JY6812/-/refs/heads/main/ftuutfutftuftuft(1).txt"))()
 local win = ui:new("羽脚本")
 
