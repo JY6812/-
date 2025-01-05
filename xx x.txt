@@ -7,10 +7,10 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
      {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"}, 
      {Image = "http://www.roblox.com/asset/?id=18107430261", ImageColor = Color3.fromRGB(255, 84, 84)} 
  ) 
- wait(2) 
+ wait(2)
  
- local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/JY6812/-/refs/heads/main/ftuutfutftuftuft(1).txt"))()
-local win = ui:new("羽脚本")
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/JY6812/-/refs/heads/main/ftuutfutftuftuft(1).txt"))()
+local win = ui:new("羽脚本")   
  
  local UITab1 = win:Tab("『通用』", '16060333448')
 
