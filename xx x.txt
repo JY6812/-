@@ -9,6 +9,9 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
  ) 
  wait(2) 
  
+ local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/JY6812/-/refs/heads/main/ftuutfutftuftuft(1).txt"))()
+local win = ui:new("羽脚本")
+ 
  local UITab1 = win:Tab("『通用』", '16060333448')
 
 local about = UITab1:section("通用内容", true)
