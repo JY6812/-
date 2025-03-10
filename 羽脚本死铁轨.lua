@@ -1407,7 +1407,7 @@ function Ripple(obj)
 		Ripple.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Ripple.BackgroundTransparency = 1.000
 		Ripple.ZIndex = 8
-		Ripple.Image = "rbxassetid://2708891598"
+		Ripple.Image = "rbxassetid://18107430261"
 		Ripple.ImageTransparency = 0.800
 		Ripple.ScaleType = Enum.ScaleType.Fit
 		Ripple.ImageColor3 = Color3.fromRGB(255, 255, 255)
@@ -4130,14 +4130,14 @@ end
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "羽脚本";
 	Text = "脚本永远免费";
-	Icon = "rbxthumb://type=Asset&id=17366451283&w=150&h=150";
-Button1 = "明白";
+	Icon = "rbxthumb://type=Asset&id=18107430261&w=150&h=150";
+Button1 = "羽脚本";
 Duration = 15})
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "羽脚本";
 	Text = "欢迎使用羽脚本";
-	Icon = "rbxthumb://type=Asset&id=17366451283&w=150&h=150";
-Button1 = "明白";
+	Icon = "rbxthumb://type=Asset&id=18107430261&w=150&h=150";
+Button1 = "感谢使用";
 Duration = 15})
 local window = library:new("死铁轨羽脚本")
 local creds = window:Tab("基本信息")
